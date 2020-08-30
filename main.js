@@ -1,4 +1,20 @@
 
+myFunction() ;
+
+
+function myFunction() {
+  
+  
+var num = prompt("Salut, bienvenue dans ma super pyramide ! Combien d'étages veux-tu ?");
+  if (num < 26 && num > 0) {
+    document.getElementById("pyr").innerHTML =
+    "veuillez ouvrir la console pour voir votre pyramide!";
+    pyramide(num);
+  }
+}
+
+
+
 function pyramide(n){
 	console.log("Voici la pyramide :");
 	
